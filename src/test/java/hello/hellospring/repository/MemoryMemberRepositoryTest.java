@@ -26,7 +26,7 @@ public class MemoryMemberRepositoryTest {
 
 //        System.out.println("(result == member) = " + (result == member));
 //        Assertions.assertEquals(member, result);       // import org.junit.jupiter.api.Assertions;
-        assertThat(member).isEqualTo(result);            // import static org.assertj.core.api.Assertions;
+        assertThat(result).isEqualTo(member);            // import static org.assertj.core.api.Assertions;
     }
 
     @Test
