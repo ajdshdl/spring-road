@@ -21,7 +21,7 @@ public class MemberService {
      * 회원가입
      */
     public Long join(Member member) {
-        //중복확인
+        //중복확인 - extract method
 //        Optional<Member> result = memberRepository.findByName(member.getName());
 //        result.ifPresent(m -> {
 //            throw new IllegalStateException("이미 존재하는 회원입니다.");
